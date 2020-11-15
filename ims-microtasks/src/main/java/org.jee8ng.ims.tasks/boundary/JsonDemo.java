@@ -147,9 +147,8 @@ public class JsonDemo {
     private void jsonB() {
         Jsonb jsonb = JsonbBuilder.create();
 
-        Issue newIssue = jsonb.fromJson("{\"id\":1123,\"name\":\"Implement feature X\",\"priority\":\"High\"}",
-                Issue.class);
-        System.out.println("JSON-B Issue: "+ newIssue);
+        Issue newIssue = jsonb.fromJson("{\"id\":1123,\"name\":\"Implement feature X\",\"priority\":\"High\"}", Issue.class);
+        System.out.println("JSON-B Issue: " + newIssue);
 
         JsonbConfig config = new JsonbConfig().withFormatting(true);
         Jsonb jsonbFormatted = JsonbBuilder.create(config);
