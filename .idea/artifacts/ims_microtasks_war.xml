@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ims-microtasks:war">
+    <output-path>$PROJECT_DIR$/ims-microtasks/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ims-microtasks</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ims-microtasks-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ims-microtasks:war exploded" />
+    </root>
+  </artifact>
+</component>
