@@ -17,4 +17,5 @@ Ex: java -jar payara-micro-5.2020.6.jar --deploy C:/Users/RAMONA/Desktop/Microse
 
 -> This will generate the users.jar file in the directory where you run this command.
 
-#### Here's how you can start the application using the generated JAR: java -jar users.jar
+#### Here's how you can start the application using the generated JAR: 
+java -jar users.jar
