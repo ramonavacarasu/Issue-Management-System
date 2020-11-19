@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ims.comments.boundary.CommentsIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.412 sec <<< FAILURE! - in ims.comments.boundary.CommentsIntegrationTest
+ims.comments.boundary.CommentsIntegrationTest  Time elapsed: 0.411 sec  <<< ERROR!
+java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.jboss.arquillian.container.impl.ContainerCreationException: Could not create Container glassfish-embedded
+Caused by: java.lang.IllegalArgumentException: DeployableContainer must be specified
+

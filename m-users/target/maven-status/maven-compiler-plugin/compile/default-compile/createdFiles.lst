@@ -1,0 +1,7 @@
+ims\users\boundary\MockData.class
+ims\users\JAXRSActivator.class
+ims\users\entity\Credential.class
+ims\users\entity\User.class
+ims\users\boundary\UsersResource.class
+ims\users\boundary\CorsFilter.class
+ims\users\boundary\UsersService.class

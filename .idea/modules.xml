@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Issue Management System with Microservices.iml" filepath="$PROJECT_DIR$/.idea/Issue Management System with Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-chat/m-chat.iml" filepath="$PROJECT_DIR$/m-chat/m-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-comments/m-comments.iml" filepath="$PROJECT_DIR$/m-comments/m-comments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-issues/m-issues.iml" filepath="$PROJECT_DIR$/m-issues/m-issues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-security/m-security.iml" filepath="$PROJECT_DIR$/m-security/m-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-users/m-users.iml" filepath="$PROJECT_DIR$/m-users/m-users.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/m-chat" />
+    <file type="web" url="file://$PROJECT_DIR$/m-comments" />
+    <file type="web" url="file://$PROJECT_DIR$/m-issues" />
+    <file type="web" url="file://$PROJECT_DIR$/m-security" />
+    <file type="web" url="file://$PROJECT_DIR$/m-users" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/m-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/m-users/pom.xml" />
+        <option value="$PROJECT_DIR$/m-issues/pom.xml" />
+        <option value="$PROJECT_DIR$/m-comments/pom.xml" />
+        <option value="$PROJECT_DIR$/m-security/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK" />
+</project>

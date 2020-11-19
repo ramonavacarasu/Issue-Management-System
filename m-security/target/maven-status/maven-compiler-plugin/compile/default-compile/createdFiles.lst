@@ -1,0 +1,3 @@
+ims\security\boundary\TokenIssuer.class
+ims\security\boundary\JWTFilter.class
+ims\security\boundary\JWTRequired.class

@@ -1,0 +1,7 @@
+ims\comments\boundary\CommentsService.class
+ims\comments\entity\CommentInfo.class
+ims\comments\JAXRSActivator.class
+ims\comments\entity\Comment.class
+ims\comments\boundary\CommentsResource.class
+ims\comments\boundary\CorsFilter.class
+ims\comments\control\FindUserName.class

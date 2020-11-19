@@ -1,0 +1,9 @@
+ims\issues\boundary\CorsFilter.class
+ims\issues\boundary\MockData.class
+ims\issues\JAXRSActivator.class
+ims\issues\entity\Issue.class
+ims\issues\entity\User.class
+ims\issues\entity\IssueEvent.class
+ims\issues\boundary\IssuesResource.class
+ims\issues\boundary\IssuesService.class
+ims\issues\boundary\IssueUpdatesSSE.class

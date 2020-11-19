@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ims.users.boundary.UsersServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.568 sec <<< FAILURE! - in ims.users.boundary.UsersServiceTest
+testGetUsers(ims.users.boundary.UsersServiceTest)  Time elapsed: 1.176 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at ims.users.boundary.UsersServiceTest.testGetUsers(UsersServiceTest.java:75)
+
+testCreateUser(ims.users.boundary.UsersServiceTest)  Time elapsed: 0.692 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <201>
+     but: was <404>
+	at ims.users.boundary.UsersServiceTest.testCreateUser(UsersServiceTest.java:54)
+

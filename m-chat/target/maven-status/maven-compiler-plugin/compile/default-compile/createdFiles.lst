@@ -1,0 +1,3 @@
+ims\chat\boundary\ChatEndpoint.class
+ims\chat\boundary\CorsFilter.class
+ims\chat\JAXRSActivator.class

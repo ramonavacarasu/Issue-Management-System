@@ -1,0 +1,13 @@
+---
+swagger: "2.0"
+info:
+  description: "Users rest endpoints"
+  version: "v1"
+  title: "Users API"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "localhost:8081"
+basePath: "/m-users/resources"
+schemes:
+- "http"
