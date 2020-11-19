@@ -14,22 +14,28 @@ It would also be nice to be able to chat with other users.
 #### The domain model will consist of user, issue, chat message, chat thread, and comment.
 
 ### Microservices: 
-#### - ims-micro-users: Services for user-specific features;
-#### - ims-micro-issues: Services for task-related features which are represented as issues
-#### - ims-micro-chat: Chat for bidirectional communication using WebSockets
-#### - ims-micro-comments: Services for comments on issues within the system
+#### - m-users: Services for user-specific features;
+#### - m-issues: Services for task-related features which are represented as issues
+#### - m-chat: Chat for bidirectional communication using WebSockets
+#### - m-comments: Services for comments on issues within the system
 
 The projects are created as standard Java EE projects, which are Skinny WARs, that will be deployed using the Payara Micro server.
 
-#### You can start Payara Micro with this services deployed locally:
-Ex: java -jar payara-micro-5.2020.6.jar --deploy C:/Users/RAMONA/Desktop/Microservices/ims/ims-micro-users/target/ims-micro-users-0.0.1-SNAPSHOT.war --port 8080
+## Build
 
-#### This will start instances of Payara Micro running on the specified ports
-Ex: http://localhost:8080/ims-micro-users/resources/users/
+#### - mvn clean package
 
-### Uber JAR option
-Ex: java -jar payara-micro-5.2020.6.jar --deploy C:/Users/RAMONA/Desktop/Microservices/ims/ims-micro-users/target/ims-micro-users-0.0.1-SNAPSHOT.war --outputUberJar users.jar
+#### - docker build -t ims/m-chat .
 
--> This will generate the users.jar file in the directory where you run this command.
+## RUN
 
-#### Here's how you can start the application using the generated JAR: java -jar users.jar
+#### - docker run -d -p 8080:8080 -p 4848:4848 --name m-chat ims/m-chat 
+
+
+## Dockerfile
+
+#### FROM payara/micro:5-SNAPSHOT
+
+#### COPY ./target/m-*.war ${DEPLOY_DIR}
+
+
