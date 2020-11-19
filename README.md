@@ -27,7 +27,7 @@ The projects are created as standard Java EE projects, which are Skinny WARs, th
 
 #### - docker build -t ims/m-chat .
 
-## RUN
+## Run
 
 #### - docker run -d -p 8080:8080 -p 4848:4848 --name m-chat ims/m-chat 
 
