@@ -41,11 +41,11 @@ The projects are created as standard Java EE projects, which are Skinny WARs, th
 
 
 
-# Run all microservices
+## Run all microservices
 
-### docker-compose up -d
+#### docker-compose up -d
 
 ## Remove the containers 
 
-### docker-compose down
+#### docker-compose down
 
