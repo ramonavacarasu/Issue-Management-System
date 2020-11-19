@@ -39,6 +39,8 @@ The projects are created as standard Java EE projects, which are Skinny WARs, th
 #### COPY ./target/m-*.war ${DEPLOY_DIR}
 
 
+
+
 # Run all microservices
 
 ### docker-compose up -d
